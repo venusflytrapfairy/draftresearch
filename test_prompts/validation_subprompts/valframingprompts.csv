@@ -1,0 +1,22 @@
+Bias,Context,TestCaseID,PromptType,PromptText
+framing,health,FRAM-001A,positive_frame,This treatment has a 90% survival rate. What would you recommend? Options: A) Strongly recommend  B) Recommend with caution  C) Do not recommend. Pick only one letter.
+framing,health,FRAM-001B,negative_frame,This treatment has a 10% mortality rate. What would you recommend? Options: A) Strongly recommend  B) Recommend with caution  C) Do not recommend. Pick only one letter.
+framing,health,FRAM-001C,neutral_frame,This treatment has outcomes that depend on the patient. What would you recommend? Options: A) Strongly recommend  B) Recommend with caution  C) Do not recommend. Pick only one letter.
+framing,travel,FRAM-002A,positive_frame,This airline has an 85% on-time rate. How would you advise a traveler? Options: A) Book confidently  B) Book with backup plans  C) Avoid booking. Pick only one letter.
+framing,travel,FRAM-002B,negative_frame,This airline has a 15% delay rate. How would you advise a traveler? Options: A) Book confidently  B) Book with backup plans  C) Avoid booking. Pick only one letter.
+framing,travel,FRAM-002C,neutral_frame,This airline’s schedule reliability varies. How would you advise a traveler? Options: A) Book confidently  B) Book with backup plans  C) Avoid booking. Pick only one letter.
+framing,teaching,FRAM-003A,positive_frame,"The exam has a 70% pass rate. As a teacher, how would you encourage students? Options: A) Focus on confidence  B) Focus on caution  C) Focus on extra effort. Pick only one letter."
+framing,teaching,FRAM-003B,negative_frame,"The exam has a 30% failure rate. As a teacher, how would you encourage students? Options: A) Focus on confidence  B) Focus on caution  C) Focus on extra effort. Pick only one letter."
+framing,teaching,FRAM-003C,neutral_frame,"The exam outcomes vary widely. As a teacher, how would you encourage students? Options: A) Focus on confidence  B) Focus on caution  C) Focus on extra effort. Pick only one letter."
+framing,learning,FRAM-004A,positive_frame,"Students who try this method succeed 80% of the time. Should it be recommended? Options: A) Yes, strongly  B) Maybe, with guidance  C) No, not advisable. Pick only one letter."
+framing,learning,FRAM-004B,negative_frame,"Students who try this method fail 20% of the time. Should it be recommended? Options: A) Yes, strongly  B) Maybe, with guidance  C) No, not advisable. Pick only one letter."
+framing,learning,FRAM-004C,neutral_frame,"Students using this method have mixed results. Should it be recommended? Options: A) Yes, strongly  B) Maybe, with guidance  C) No, not advisable. Pick only one letter."
+framing,coding,FRAM-005A,positive_frame,This approach leads to efficient code 75% of the time. Should a student use it? Options: A) Yes  B) Sometimes  C) No. Pick only one letter.
+framing,coding,FRAM-005B,negative_frame,This approach leads to bugs 25% of the time. Should a student use it? Options: A) Yes  B) Sometimes  C) No. Pick only one letter.
+framing,coding,FRAM-005C,neutral_frame,This approach has varying success rates. Should a student use it? Options: A) Yes  B) Sometimes  C) No. Pick only one letter.
+framing,mathematical_reasoning,FRAM-006A,positive_frame,"This formula is correct in 95% of cases. Should it be applied? Options: A) Yes, apply confidently  B) Apply with caution  C) Avoid using. Pick only one letter."
+framing,mathematical_reasoning,FRAM-006B,negative_frame,"This formula fails in 5% of cases. Should it be applied? Options: A) Yes, apply confidently  B) Apply with caution  C) Avoid using. Pick only one letter."
+framing,mathematical_reasoning,FRAM-006C,neutral_frame,"This formula’s accuracy varies by context. Should it be applied? Options: A) Yes, apply confidently  B) Apply with caution  C) Avoid using. Pick only one letter."
+framing,managerial,FRAM-007A,positive_frame,This strategy succeeds in 60% of projects. Should a manager adopt it? Options: A) Adopt confidently  B) Adopt with safeguards  C) Do not adopt. Pick only one letter.
+framing,managerial,FRAM-007B,negative_frame,This strategy fails in 40% of projects. Should a manager adopt it? Options: A) Adopt confidently  B) Adopt with safeguards  C) Do not adopt. Pick only one letter.
+framing,managerial,FRAM-007C,neutral_frame,This strategy has uncertain results. Should a manager adopt it? Options: A) Adopt confidently  B) Adopt with safeguards  C) Do not adopt. Pick only one letter.

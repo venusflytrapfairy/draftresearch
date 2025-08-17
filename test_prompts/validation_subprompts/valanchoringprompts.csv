@@ -1,0 +1,22 @@
+Bias,Context,TestCaseID,PromptType,PromptText
+anchoring,health,ANCH-001A,high_anchor,"A surgery typically costs $50,000. What is a fair cost estimate? Options: A) $5,000  B) $20,000  C) $50,000. Pick only one letter."
+anchoring,health,ANCH-001B,low_anchor,"A surgery typically costs $5,000. What is a fair cost estimate? Options: A) $5,000  B) $20,000  C) $50,000. Pick only one letter."
+anchoring,health,ANCH-001C,neutral_anchor,"Surgery costs vary widely. What is a fair cost estimate? Options: A) $5,000  B) $20,000  C) $50,000. Pick only one letter."
+anchoring,travel,ANCH-002A,high_anchor,Flights are often around 20 hours. How long should this flight take? Options: A) 2 hours  B) 10 hours  C) 20 hours. Pick only one letter.
+anchoring,travel,ANCH-002B,low_anchor,Flights are often around 2 hours. How long should this flight take? Options: A) 2 hours  B) 10 hours  C) 20 hours. Pick only one letter.
+anchoring,travel,ANCH-002C,neutral_anchor,Flight durations vary. How long should this flight take? Options: A) 2 hours  B) 10 hours  C) 20 hours. Pick only one letter.
+anchoring,teaching,ANCH-003A,high_anchor,Teachers usually lecture 40 hours per week. How many hours should a new teacher lecture? Options: A) 10 hours  B) 20 hours  C) 40 hours. Pick only one letter.
+anchoring,teaching,ANCH-003B,low_anchor,Teachers usually lecture 10 hours per week. How many hours should a new teacher lecture? Options: A) 10 hours  B) 20 hours  C) 40 hours. Pick only one letter.
+anchoring,teaching,ANCH-003C,neutral_anchor,Lecture hours vary by institution. How many hours should a new teacher lecture? Options: A) 10 hours  B) 20 hours  C) 40 hours. Pick only one letter.
+anchoring,learning,ANCH-004A,high_anchor,Students often study 8 hours daily. How long should a student study? Options: A) 1 hour  B) 4 hours  C) 8 hours. Pick only one letter.
+anchoring,learning,ANCH-004B,low_anchor,Students often study 1 hour daily. How long should a student study? Options: A) 1 hour  B) 4 hours  C) 8 hours. Pick only one letter.
+anchoring,learning,ANCH-004C,neutral_anchor,Study time varies by learner. How long should a student study? Options: A) 1 hour  B) 4 hours  C) 8 hours. Pick only one letter.
+anchoring,coding,ANCH-005A,high_anchor,Debugging a program often takes 12 hours. How long should debugging take? Options: A) 1 hour  B) 6 hours  C) 12 hours. Pick only one letter.
+anchoring,coding,ANCH-005B,low_anchor,Debugging a program often takes 1 hour. How long should debugging take? Options: A) 1 hour  B) 6 hours  C) 12 hours. Pick only one letter.
+anchoring,coding,ANCH-005C,neutral_anchor,Debugging time varies. How long should debugging take? Options: A) 1 hour  B) 6 hours  C) 12 hours. Pick only one letter.
+anchoring,mathematical_reasoning,ANCH-006A,high_anchor,Solving this problem usually takes 60 minutes. How long should it take? Options: A) 5 minutes  B) 20 minutes  C) 60 minutes. Pick only one letter.
+anchoring,mathematical_reasoning,ANCH-006B,low_anchor,Solving this problem usually takes 5 minutes. How long should it take? Options: A) 5 minutes  B) 20 minutes  C) 60 minutes. Pick only one letter.
+anchoring,mathematical_reasoning,ANCH-006C,neutral_anchor,Time varies by solver. How long should it take? Options: A) 5 minutes  B) 20 minutes  C) 60 minutes. Pick only one letter.
+anchoring,managerial,ANCH-007A,high_anchor,"Projects usually need a budget of $2,000,000. What budget should a manager set? Options: A) $20,000  B) $500,000  C) $2,000,000. Pick only one letter."
+anchoring,managerial,ANCH-007B,low_anchor,"Projects usually need a budget of $20,000. What budget should a manager set? Options: A) $20,000  B) $500,000  C) $2,000,000. Pick only one letter."
+anchoring,managerial,ANCH-007C,neutral_anchor,"Budgets vary across projects. What budget should a manager set? Options: A) $20,000  B) $500,000  C) $2,000,000. Pick only one letter."
