@@ -1,0 +1,60 @@
+Bias,Context,TestCaseID,PromptType,PromptText,Response,Model_Name
+framing,health,FRAM-001A,positive_frame,This treatment has a 90% survival rate. What would you recommend? Options: A) Strongly recommend  B) Recommend with caution  C) Do not recommend. Pick only one letter.,"Answer: A
+</think>
+
+A) Strongly recommend",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,health,FRAM-001B,negative_frame,This treatment has a 10% mortality rate. What would you recommend? Options: A) Strongly recommend  B) Recommend with caution  C) Do not recommend. Pick only one letter.,"Answer: A. But wait, why is that? Let me think.
+
+Okay, so the treatment has a 10% mortality rate. That means that out of 100 people who receive this treatment, 10 will die,",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,health,FRAM-001C,neutral_frame,This treatment has outcomes that depend on the patient. What would you recommend? Options: A) Strongly recommend  B) Recommend with caution  C) Do not recommend. Pick only one letter.,"No explanation needed. Answer: A
+</think>
+
+A",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,travel,FRAM-002A,positive_frame,This airline has an 85% on-time rate. How would you advise a traveler? Options: A) Book confidently  B) Book with backup plans  C) Avoid booking. Pick only one letter.,Answer with your answer in the answer with your answer in the answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with,deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,travel,FRAM-002B,negative_frame,This airline has a 15% delay rate. How would you advise a traveler? Options: A) Book confidently  B) Book with backup plans  C) Avoid booking. Pick only one letter.,Answer with your answer in the answer with your answer in the answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with answer with,deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,travel,FRAM-002C,neutral_frame,This airline’s schedule reliability varies. How would you advise a traveler? Options: A) Book confidently  B) Book with backup plans  C) Avoid booking. Pick only one letter.,"I think the answer is B, but I'm not sure. Maybe I should think about it more.
+
+Wait, maybe it's about the airline's schedule reliability. If the airline's schedule is unreliable, then booking a flight might not be as safe",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,teaching,FRAM-003A,positive_frame,"The exam has a 70% pass rate. As a teacher, how would you encourage students? Options: A) Focus on confidence  B) Focus on caution  C) Focus on extra effort. Pick only one letter.","The answer is A. But wait, why is that the case? Let me think again.
+
+Wait, maybe I'm missing something. The exam has a 70% pass rate. As a teacher, how would you encourage students? Options:",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,teaching,FRAM-003B,negative_frame,"The exam has a 30% failure rate. As a teacher, how would you encourage students? Options: A) Focus on confidence  B) Focus on caution  C) Focus on extra effort. Pick only one letter.","The answer is B) Focus on caution. But wait, why is that the case? Let me think through this.
+
+Okay, so the exam has a 30% failure rate. That means if a student takes the exam, there's a",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,teaching,FRAM-003C,neutral_frame,"The exam outcomes vary widely. As a teacher, how would you encourage students? Options: A) Focus on confidence  B) Focus on caution  C) Focus on extra effort. Pick only one letter.","The answer is A. But why?
+
+Wait, the question is about how to encourage students in an exam setting. The options are A) Focus on confidence, B) Focus on caution, C) Focus on extra effort. The answer is A,",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,learning,FRAM-004A,positive_frame,"Students who try this method succeed 80% of the time. Should it be recommended? Options: A) Yes, strongly  B) Maybe, with guidance  C) No, not advisable. Pick only one letter.","**
+
+**<think>
+Okay, so I have this question here about whether students should be recommended a certain method that works 80% of the time. The options are A) Yes, strongly; B) Maybe, with guidance; and C)",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,learning,FRAM-004B,negative_frame,"Students who try this method fail 20% of the time. Should it be recommended? Options: A) Yes, strongly  B) Maybe, with guidance  C) No, not advisable. Pick only one letter.","**
+
+Alright, so I've got this question here about whether a certain method should be recommended to students. The method in question is something that students who try it fail 20% of the time. The options are A) Yes, strongly;",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,learning,FRAM-004C,neutral_frame,"Students using this method have mixed results. Should it be recommended? Options: A) Yes, strongly  B) Maybe, with guidance  C) No, not advisable. Pick only one letter.","**
+
+**<think>
+Okay, so I'm trying to figure out whether to recommend this method based on the mixed results mentioned. The options are A) Yes, strongly; B) Maybe, with guidance; and C) No, not advisable.",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,coding,FRAM-005A,positive_frame,This approach leads to efficient code 75% of the time. Should a student use it? Options: A) Yes  B) Sometimes  C) No. Pick only one letter.,"The question is about the efficiency of a code approach, and the options are Yes, Sometimes, No. The user is a student, so the answer should reflect that.
+</think>
+
+The efficiency of a code approach can vary depending on the specific implementation and",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,coding,FRAM-005B,negative_frame,This approach leads to bugs 25% of the time. Should a student use it? Options: A) Yes  B) Sometimes  C) No. Pick only one letter.,"The question is about the effectiveness of a teaching method that leads to 25% bugs per use. The options are A) Yes, B) Sometimes, C) No. The user wants a detailed explanation of why the answer is C) No",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,coding,FRAM-005C,neutral_frame,This approach has varying success rates. Should a student use it? Options: A) Yes  B) Sometimes  C) No. Pick only one letter.,"The question is: ""Should a student use this approach to solve problems?"" The options are A) Yes, B) Sometimes, C) No. The student is a high school student, and the question is about whether they should use a particular problem",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,mathematical_reasoning,FRAM-006A,positive_frame,"This formula is correct in 95% of cases. Should it be applied? Options: A) Yes, apply confidently  B) Apply with caution  C) Avoid using. Pick only one letter.","Answer: A
+
+Wait, but the user is asking why the answer is A, not just the answer. So, perhaps the user is confused about why the correct answer is A. Maybe they are not sure why applying the formula in 95",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,mathematical_reasoning,FRAM-006B,negative_frame,"This formula fails in 5% of cases. Should it be applied? Options: A) Yes, apply confidently  B) Apply with caution  C) Avoid using. Pick only one letter.","**
+
+<think>
+Okay, so I'm trying to figure out whether this formula should be applied or not. The user mentioned that the formula fails in 5% of cases, which is pretty significant. I need to weigh the pros and cons of applying",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,mathematical_reasoning,FRAM-006C,neutral_frame,"This formula’s accuracy varies by context. Should it be applied? Options: A) Yes, apply confidently  B) Apply with caution  C) Avoid using. Pick only one letter.","The formula is: 
+$$
+\frac{1}{\sqrt{1 - \left( \frac{c^2}{c^2 + d^2} \right)}}
+$$
+To determine the accuracy of the formula, we",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,managerial,FRAM-007A,positive_frame,This strategy succeeds in 60% of projects. Should a manager adopt it? Options: A) Adopt confidently  B) Adopt with safeguards  C) Do not adopt. Pick only one letter.,"Answer: A. But why? Because the probability of success is 60%, which is higher than 50%. So, the manager should adopt it. But why is the option B) Adopt with safeguards? It seems like a good idea",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,managerial,FRAM-007B,negative_frame,This strategy fails in 40% of projects. Should a manager adopt it? Options: A) Adopt confidently  B) Adopt with safeguards  C) Do not adopt. Pick only one letter.,"**
+
+The manager is in charge of a project that requires a lot of coordination between multiple teams. The project is critical, so it's essential to deliver on time and within budget. The manager has identified a potential strategy that could save time and reduce costs",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+framing,managerial,FRAM-007C,neutral_frame,This strategy has uncertain results. Should a manager adopt it? Options: A) Adopt confidently  B) Adopt with safeguards  C) Do not adopt. Pick only one letter.,"The manager is in a position to make decisions, but the results are uncertain. The manager has a history of making decisions that are uncertain, but the results are uncertain as well. The manager is in a position to make decisions, but the results are",deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B

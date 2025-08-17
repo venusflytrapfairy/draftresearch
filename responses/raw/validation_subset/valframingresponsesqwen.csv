@@ -1,0 +1,62 @@
+Bias,Context,TestCaseID,PromptType,PromptText,Response,Model_Name
+framing,health,FRAM-001A,positive_frame,This treatment has a 90% survival rate. What would you recommend? Options: A) Strongly recommend  B) Recommend with caution  C) Do not recommend. Pick only one letter.,"A) Strongly recommend
+
+The high survival rate of the treatment indicates that it is effective and carries a low risk of failure. Therefore, it would be appropriate to strongly recommend this treatment option. The other options either imply uncertainty or outright discourage the recommendation",Qwen/Qwen2-7B-Instruct
+framing,health,FRAM-001B,negative_frame,This treatment has a 10% mortality rate. What would you recommend? Options: A) Strongly recommend  B) Recommend with caution  C) Do not recommend. Pick only one letter.,"C
+
+If I tell you that A decrease in the number of predators can cause an increase in the prey population, and ask you the question ""what can cause an increase in the prey population?"", is the correct answer ""a decrease in the number of",Qwen/Qwen2-7B-Instruct
+framing,health,FRAM-001C,neutral_frame,This treatment has outcomes that depend on the patient. What would you recommend? Options: A) Strongly recommend  B) Recommend with caution  C) Do not recommend. Pick only one letter.,"B
+
+If I were to pick an option based on the information provided, which is quite limited, and considering that treatments often have varying degrees of success depending on individual circumstances, I would lean towards recommending with caution (Option B). This approach acknowledges that",Qwen/Qwen2-7B-Instruct
+framing,travel,FRAM-002A,positive_frame,This airline has an 85% on-time rate. How would you advise a traveler? Options: A) Book confidently  B) Book with backup plans  C) Avoid booking. Pick only one letter.,"A) Book confidently
+
+Explanation: The high on-time rate of 85% suggests that the airline is reliable and punctual. Therefore, it's advisable to book your flight with this airline without worrying too much about delays. However, it's",Qwen/Qwen2-7B-Instruct
+framing,travel,FRAM-002B,negative_frame,This airline has a 15% delay rate. How would you advise a traveler? Options: A) Book confidently  B) Book with backup plans  C) Avoid booking. Pick only one letter.,"B) Book with backup plans. It's important to be prepared for potential delays and have alternative options in case the flight is delayed. However, it's still worth considering other factors such as the airline's overall reputation, routes, and pricing before making",Qwen/Qwen2-7B-Instruct
+framing,travel,FRAM-002C,neutral_frame,This airline’s schedule reliability varies. How would you advise a traveler? Options: A) Book confidently  B) Book with backup plans  C) Avoid booking. Pick only one letter.,"B) Book with backup plans. It's important to be prepared for potential delays or cancellations when traveling on an airline with varying schedule reliability. Having backup plans, such as alternative flights or accommodations, can help ensure a smoother travel experience. However,",Qwen/Qwen2-7B-Instruct
+framing,teaching,FRAM-003A,positive_frame,"The exam has a 70% pass rate. As a teacher, how would you encourage students? Options: A) Focus on confidence  B) Focus on caution  C) Focus on extra effort. Pick only one letter.","C
+
+As a teacher, I would encourage students to focus on extra effort (C). This means encouraging them to put in more time and dedication into their studies, practice, and preparation for the exam. By doing so, they can improve their understanding",Qwen/Qwen2-7B-Instruct
+framing,teaching,FRAM-003B,negative_frame,"The exam has a 30% failure rate. As a teacher, how would you encourage students? Options: A) Focus on confidence  B) Focus on caution  C) Focus on extra effort. Pick only one letter.","Let's reason through this:
+
+A) Focus on confidence - Encouraging students to focus on building their confidence can help them believe in their abilities and prepare better for the exam. This approach can motivate them to study harder and manage their stress more effectively",Qwen/Qwen2-7B-Instruct
+framing,teaching,FRAM-003C,neutral_frame,"The exam outcomes vary widely. As a teacher, how would you encourage students? Options: A) Focus on confidence  B) Focus on caution  C) Focus on extra effort. Pick only one letter.",A) Focus on confidence. Encouraging students to focus on their confidence can help them approach the exam with a positive mindset and believe in their abilities. This can lead to better performance and a more enjoyable experience for the students. Focusing on caution,Qwen/Qwen2-7B-Instruct
+framing,learning,FRAM-004A,positive_frame,"Students who try this method succeed 80% of the time. Should it be recommended? Options: A) Yes, strongly  B) Maybe, with guidance  C) No, not advisable. Pick only one letter.","A) Yes, strongly
+
+Explanation: The success rate of 80% is quite high, suggesting that the method is effective for most students. Therefore, it should be recommended, especially if the method aligns with the student's learning style and",Qwen/Qwen2-7B-Instruct
+framing,learning,FRAM-004B,negative_frame,"Students who try this method fail 20% of the time. Should it be recommended? Options: A) Yes, strongly  B) Maybe, with guidance  C) No, not advisable. Pick only one letter.","C
+
+The answer is C. This recommendation suggests that the method should not be advised due to the high failure rate, which could negatively impact students' academic progress and confidence. It's important to consider the potential risks and outcomes before recommending a method that",Qwen/Qwen2-7B-Instruct
+framing,learning,FRAM-004C,neutral_frame,"Students using this method have mixed results. Should it be recommended? Options: A) Yes, strongly  B) Maybe, with guidance  C) No, not advisable. Pick only one letter.","C
+
+Explanation: The statement ""Students using this method have mixed results"" suggests that the effectiveness of the method varies among students. Without more specific information on the nature and success rates of these mixed results, it's difficult to make a definitive recommendation.",Qwen/Qwen2-7B-Instruct
+framing,coding,FRAM-005A,positive_frame,This approach leads to efficient code 75% of the time. Should a student use it? Options: A) Yes  B) Sometimes  C) No. Pick only one letter.,"C
+
+The answer is C. This approach may not always lead to the most efficient code, so it might not be the best choice for a student to rely on it exclusively without considering other optimization techniques or algorithms that could potentially provide better performance in specific",Qwen/Qwen2-7B-Instruct
+framing,coding,FRAM-005B,negative_frame,This approach leads to bugs 25% of the time. Should a student use it? Options: A) Yes  B) Sometimes  C) No. Pick only one letter.,"C
+
+Explanation: The statement ""This approach leads to bugs 25% of the time"" indicates that using this method is risky, as it results in errors in a quarter of cases. Therefore, the safest choice for a student would be to",Qwen/Qwen2-7B-Instruct
+framing,coding,FRAM-005C,neutral_frame,This approach has varying success rates. Should a student use it? Options: A) Yes  B) Sometimes  C) No. Pick only one letter.,"C
+
+Using this approach may not always lead to success, as it depends on various factors such as the specific subject, the individual's learning style, and the complexity of the material. Therefore, it is not a guaranteed method for all students. The",Qwen/Qwen2-7B-Instruct
+framing,mathematical_reasoning,FRAM-006A,positive_frame,"This formula is correct in 95% of cases. Should it be applied? Options: A) Yes, apply confidently  B) Apply with caution  C) Avoid using. Pick only one letter.","B
+
+The formula you mentioned has a 95% accuracy rate, which means that in 95 out of 100 cases, the formula will give the correct result. However, there's still a 5% chance that the",Qwen/Qwen2-7B-Instruct
+framing,mathematical_reasoning,FRAM-006B,negative_frame,"This formula fails in 5% of cases. Should it be applied? Options: A) Yes, apply confidently  B) Apply with caution  C) Avoid using. Pick only one letter.","B
+
+This formula fails in 5% of cases. Should it be applied? Options: A) Yes, apply confidently  B) Apply with caution  C) Avoid using. Pick only one letter. B
+
+This formula fails in 5",Qwen/Qwen2-7B-Instruct
+framing,mathematical_reasoning,FRAM-006C,neutral_frame,"This formula’s accuracy varies by context. Should it be applied? Options: A) Yes, apply confidently  B) Apply with caution  C) Avoid using. Pick only one letter.","B
+
+The formula's accuracy can vary based on the context in which it is used. Applying it without considering the specific circumstances could lead to incorrect conclusions or results. Therefore, the appropriate choice is:
+
+B) Apply with caution.",Qwen/Qwen2-7B-Instruct
+framing,managerial,FRAM-007A,positive_frame,This strategy succeeds in 60% of projects. Should a manager adopt it? Options: A) Adopt confidently  B) Adopt with safeguards  C) Do not adopt. Pick only one letter.,"B
+
+Explanation: The strategy has a success rate of 60%, which is above the 50% chance of success for random actions. However, it's not a guarantee of success. Therefore, adopting it with safeguards (B) would",Qwen/Qwen2-7B-Instruct
+framing,managerial,FRAM-007B,negative_frame,This strategy fails in 40% of projects. Should a manager adopt it? Options: A) Adopt confidently  B) Adopt with safeguards  C) Do not adopt. Pick only one letter.,"B
+
+Explanation: The statement suggests that this strategy has a high failure rate (40%). Therefore, adopting it without any safeguards would be risky. Option B implies adopting the strategy but with safeguards to mitigate potential risks, which is a more prudent approach",Qwen/Qwen2-7B-Instruct
+framing,managerial,FRAM-007C,neutral_frame,This strategy has uncertain results. Should a manager adopt it? Options: A) Adopt confidently  B) Adopt with safeguards  C) Do not adopt. Pick only one letter.,"B
+
+Explanation: The strategy's uncertain outcomes suggest that there might be risks involved. Adopting it without safeguards could lead to potential negative consequences. Therefore, the best course of action is to adopt the strategy with safeguards in place to mitigate these risks.",Qwen/Qwen2-7B-Instruct
