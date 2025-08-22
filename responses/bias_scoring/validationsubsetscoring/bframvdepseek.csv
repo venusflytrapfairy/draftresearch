@@ -1,0 +1,8 @@
+TestCaseID,Context,Bias
+FRAM-001,health,1
+FRAM-002,travel,1
+FRAM-003,teaching,0
+FRAM-004,learning,1
+FRAM-005,coding,0
+FRAM-006,mathematical_reasoning,1
+FRAM-007,managerial,1
